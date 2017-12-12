@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8102CA871FDF216B003BEAA5 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102CA861FDF216B003BEAA5 /* SettingsTableViewController.swift */; };
+		8102CA891FDF375A003BEAA5 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102CA881FDF375A003BEAA5 /* NetworkHelper.swift */; };
+		8102CA8B1FDF3777003BEAA5 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102CA8A1FDF3777003BEAA5 /* AppError.swift */; };
+		8102CA8D1FDF37DD003BEAA5 /* ZodiacAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102CA8C1FDF37DD003BEAA5 /* ZodiacAPIClient.swift */; };
+		8102CA8F1FDF3863003BEAA5 /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102CA8E1FDF3863003BEAA5 /* Horoscope.swift */; };
 		810C61711FDF18830030A9BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C61701FDF18830030A9BD /* AppDelegate.swift */; };
-		810C61731FDF18830030A9BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C61721FDF18830030A9BD /* ViewController.swift */; };
 		810C61761FDF18830030A9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810C61741FDF18830030A9BD /* Main.storyboard */; };
 		810C61781FDF18830030A9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810C61771FDF18830030A9BD /* Assets.xcassets */; };
 		810C617B1FDF18830030A9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810C61791FDF18830030A9BD /* LaunchScreen.storyboard */; };
 		810C61861FDF18830030A9BD /* zodiacFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C61851FDF18830030A9BD /* zodiacFunTests.swift */; };
 		810C61911FDF18830030A9BD /* zodiacFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C61901FDF18830030A9BD /* zodiacFunUITests.swift */; };
+		810C619F1FDF1CB60030A9BD /* ZodiacHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C619E1FDF1CB60030A9BD /* ZodiacHomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8102CA861FDF216B003BEAA5 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		8102CA881FDF375A003BEAA5 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8102CA8A1FDF3777003BEAA5 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		8102CA8C1FDF37DD003BEAA5 /* ZodiacAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacAPIClient.swift; sourceTree = "<group>"; };
+		8102CA8E1FDF3863003BEAA5 /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
 		810C616D1FDF18830030A9BD /* zodiacFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zodiacFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810C61701FDF18830030A9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		810C61721FDF18830030A9BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		810C61751FDF18830030A9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		810C61771FDF18830030A9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		810C617A1FDF18830030A9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		810C618C1FDF18830030A9BD /* zodiacFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zodiacFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810C61901FDF18830030A9BD /* zodiacFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zodiacFunUITests.swift; sourceTree = "<group>"; };
 		810C61921FDF18830030A9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810C619E1FDF1CB60030A9BD /* ZodiacHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacHomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		810C616F1FDF18830030A9BD /* zodiacFun */ = {
 			isa = PBXGroup;
 			children = (
+				8102CA861FDF216B003BEAA5 /* SettingsTableViewController.swift */,
+				810C619E1FDF1CB60030A9BD /* ZodiacHomeScreenViewController.swift */,
+				8102CA8E1FDF3863003BEAA5 /* Horoscope.swift */,
+				8102CA8C1FDF37DD003BEAA5 /* ZodiacAPIClient.swift */,
 				810C61701FDF18830030A9BD /* AppDelegate.swift */,
-				810C61721FDF18830030A9BD /* ViewController.swift */,
 				810C61741FDF18830030A9BD /* Main.storyboard */,
+				8102CA881FDF375A003BEAA5 /* NetworkHelper.swift */,
+				8102CA8A1FDF3777003BEAA5 /* AppError.swift */,
 				810C61771FDF18830030A9BD /* Assets.xcassets */,
 				810C61791FDF18830030A9BD /* LaunchScreen.storyboard */,
 				810C617C1FDF18830030A9BD /* Info.plist */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				810C61731FDF18830030A9BD /* ViewController.swift in Sources */,
+				8102CA891FDF375A003BEAA5 /* NetworkHelper.swift in Sources */,
+				8102CA8F1FDF3863003BEAA5 /* Horoscope.swift in Sources */,
+				8102CA8D1FDF37DD003BEAA5 /* ZodiacAPIClient.swift in Sources */,
 				810C61711FDF18830030A9BD /* AppDelegate.swift in Sources */,
+				8102CA8B1FDF3777003BEAA5 /* AppError.swift in Sources */,
+				810C619F1FDF1CB60030A9BD /* ZodiacHomeScreenViewController.swift in Sources */,
+				8102CA871FDF216B003BEAA5 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
